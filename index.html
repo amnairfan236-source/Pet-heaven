@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PetCare Vet Clinic</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<Header>
+   <nav class="navbar">
+  <div class="nav-container">
+    
+    <!-- Left: Logo -->
+    <a href="#" class="logo">
+      <div class="logo-icon">🐾</div>
+      <div class="logo-text">
+        <span class="top-name">Dr.Mehboob</span>
+        <span class="bottom-name">Ahmad</span>
+      </div>
+    </a>
+
+    <!-- Center: Navigation Links -->
+    <ul class="nav-menu" id="navMenu">
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#services" class="nav-link">Services</a></li>
+      <li><a href="#doctors" class="nav-link">Doctors</a></li>
+      <li><a href="#about" class="nav-link">About Us</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+      <li><a href="#portfolio" class="nav-link">portfolio</a></li>
+
+      <!-- Mobile Screen Buttons (Menu ke andar) -->
+      <li class="mobile-actions">
+        <a href="tel:+923001234567" class="btn btn-emergency-red">
+  <span class="btn-text">Emergency: +92 300 1234567</span>
+  <span class="btn-arrow">
+  </span>
+</a>
+        <a href="#appointment" class="btn btn-appointment">Book Appointment</a>
+      </li>
+    </ul>
+
+    <!-- Right: Desktop Action Buttons -->
+    <div class="desktop-actions">
+      <a href="tel:+923001234567" class="btn btn-emergency">⚡ Emergency Call</a>
+      <a href="#appointment" class="btn btn-appointment">Book Appointment</a>
+    </div>
+
+    <!-- Mobile Hamburger Icon -->
+    <button class="hamburger" id="hamburgerBtn" aria-label="Toggle Menu">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+
+  </div>
+</nav>
+
+<div class="nav-overlay" id="navOverlay"></div>
+</Header>
+ <main>
+<!--Hero section-->
+<!-- Hero Section -->
+<section class="hero-section" id="home">
+  <div class="hero-container">
+    
+    <!-- Left Column: Content -->
+    <div class="hero-content">
+      <div class="badge-tag">
+        <span class="badge-icon">🐾</span> Expert Care For Your Beloved Animals
+      </div>
+      
+      <h1 class="hero-title">
+        Compassionate & Professional Care By <span class="highlight-text">Dr. Mehboob Ahmad (Poultry consultant)</span>
+      </h1>
+      
+      <p class="hero-subtitle">
+      Providing top-notch medical, surgical, and preventive healthcare services for pets, poultry, and farm animals. Dedicated to keeping all your animals healthy, productive, and happy
+      </p>
+      
+      <!-- CTA Buttons -->
+      <div class="hero-buttons">
+        <a href="#appointment" class="btn btn-primary-hero">Book Consultation</a>
+        <a href="#services" class="btn btn-secondary-hero">Explore Services</a>
+      </div>
+
+      <!-- Quick Stats / Highlights -->
+      <div class="hero-stats">
+        <div class="stat-card">
+          <h3>2</h3>
+          <p>Years Experience</p>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-card">
+          <h3>5,0000</h3>
+          <p>Treated Birds</p>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-card">
+          <h3>24/7</h3>
+          <p>Emergency Care</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Column: Image & Decorative Frame -->
+    <div class="hero-image-wrapper">
+      <div class="blob-bg"></div>
+      <!-- Doctor or Animal Care Image Placeholder -->
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaPaKeVPS7q8qHXEOHrPyaWYWnqLkJV5CPxwPCtRxZ5Q&s=10" alt="Dr Mehboob Ahmad Vet" class="hero-img">
+      
+      <!-- Floating Badge -->
+      <div class="floating-badge">
+        <div class="badge-avatar">⭐</div>
+        <div>
+          <h4>4.9 / 5.0</h4>
+          <p>Client Satisfaction</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- Services Section -->
+<section class="services-section" id="services">
+  <div class="services-container">
+    
+    <!-- Section Header -->
+    <div class="section-header">
+      <span class="services-badge">🐾 What We Offer</span>
+      <h2 class="section-title">Our Veterinary <span class="highlight-text">Services</span></h2>
+      <p class="section-subtitle">
+        Comprehensive healthcare solutions for your pets and farm animals, delivered with expertise and compassion.
+      </p>
+    </div>
+
+    <!-- Services Grid Cards -->
+    <div class="services-grid">
+      
+      <!-- Service Card 1 -->
+      <div class="service-card">
+        <div class="service-image-half">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgdYaKet90I9gQWJ8f2Dv6do999RFcCHyKLZclEB8JpA&s=10" alt="General Checkup">
+        </div>
+        <div class="service-text-half">
+          <h3>Regular farm visit</h3>
+          <p>Routine health examinations, wellness screenings, and preventive care.</p>
+          <a href="#appointment" class="service-link">Book Now →</a>
+        </div>
+      </div>
+
+      <!-- Service Card 2 -->
+      <div class="service-card">
+        <div class="service-image-half">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqUkvn5zvcLBTWAlfqY7Ta6SsqH6TzWlYBv5i6UQ8-pA&s=10" alt="Vaccination">
+        </div>
+        <div class="service-text-half">
+          <h3>Emergency farm visits </h3>
+          <p>Essential immunizations to protect pets from dangerous viral diseases.</p>
+          <a href="#appointment" class="service-link">Book Now →</a>
+        </div>
+      </div>
+
+      <!-- Service Card 3 -->
+      <div class="service-card">
+        <div class="service-image-half">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf0rGig-leIVmAiaSY9JteiCrHtZXhXZq1QUw85CELhg&s=10" alt="Emergency Care">
+        </div>
+        <div class="service-text-half">
+          <h3>Vaccination protocols </h3>
+          <p>24/7 urgent medical attention and trauma care for critical animal injuries.</p>
+          <a href="tel:+923001234567" class="service-link">Call Emergency →</a>
+        </div>
+      </div>
+
+      <!-- Service Card 4 -->
+      <div class="service-card">
+        <div class="service-image-half">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUsMeeb5q_cWZQDZv94nUj5yOcrYbTlJSd03TE0MOi0w&s=10" alt="Disease management">
+        </div>
+        <div class="service-text-half">
+          <h3>disease management </h3>
+          <p>Advanced soft-tissue and orthopedic surgeries in a sterile environment.</p>
+          <a href="#appointment" class="service-link">Book Now →</a>
+        </div>
+      </div>
+
+      <!-- Service Card 5 -->
+      <div class="service-card">
+        <div class="service-image-half">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTrzG97vdLcM9PvW2nC_ER5iUMB54FmHIpxHQJzAWnXA&s=10" alt="Farm Animal Care">
+        </div>
+        <div class="service-text-half">
+          <h3>Brooding management </h3>
+          <p>Specialized treatment, herd health management, and cattle services.</p>
+          <a href="#appointment" class="service-link">Book Now →</a>
+        </div>
+      </div>
+
+      <!-- Service Card 6 -->
+      <div class="service-card">
+        <div class="service-image-half">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE3hlgY6ocEik6tcO0Zalzt73jkEupTRLwY2mIEcfMew&s=10" alt="Laboratory Tests">
+        </div>
+        <div class="service-text-half">
+          <h3>Ventilation adjustments</h3>
+          <p>On-site diagnostic blood tests, parasite screenings, and digital X-rays.</p>
+          <a href="#appointment" class="service-link">Book Now →</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- Doctors Section -->
+<section class="doctors-section" id="doctors">
+  <div class="doctors-container">
+    
+    <!-- Section Header -->
+    <div class="section-header">
+      <span class="doctors-badge">🐾 Expert Professional</span>
+      <h2 class="section-title">Meet Our Lead <span class="highlight-text">Veterinarian</span></h2>
+      <p class="section-subtitle">
+        Dedicated and experienced veterinary care provider committed to the health and well-being of all animals.
+      </p>
+    </div>
+
+    <!-- Doctor Profile Card Wrapper -->
+    <div class="doctor-profile-wrapper">
+      <div class="doctor-card">
+        
+        <!-- Left Half: Doctor Image -->
+        <div class="doctor-image-half">
+          <img src="YAHAN_DOCTOR_IMAGE_URL_LAGAYEIN" alt="Dr. Mehboob Ahmad">
+          <div class="doctor-badge-exp">
+            <span>2 Years</span>
+            <p>Experience</p>
+          </div>
+        </div>
+
+        <!-- Right Half: Doctor Details -->
+        <div class="doctor-content-half">
+          <div class="doctor-tag">Chief Veterinary Surgeon</div>
+          <h3 class="doctor-name">Dr. Mehboob Ahmad</h3>
+          <p class="doctor-qualification">D.V.M (Doctor of Veterinary Medicine)</p>
+          
+          <p class="doctor-bio">
+            Dr. Mehboob Ahmad is an expert in poultry disease and diagnistics, disease management , biosecurity and fcr and ventilation expert.
+          </p>
+
+          <!-- Specializations List -->
+          <div class="doctor-specs">
+            <span class="spec-item">✓ Pet Surgery</span>
+            <span class="spec-item">✓ Vaccination & Care</span>
+            <span class="spec-item">✓ Farm Livestock</span>
+            <span class="spec-item">✓ Emergency Trauma</span>
+          </div>
+
+          <!-- Action Buttons -->
+          <div class="doctor-actions">
+            <a href="#appointment" class="btn-primary-doc">Book Appointment</a>
+            <a href="tel:03259174531" class="btn-secondary-doc">📞 Emergency Call</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+   
+ </main>
+<footer>
+
+</footer>
+  <script src="main.js"></script>
+</body>
+</html>
